@@ -11,8 +11,8 @@ struct ContentView: View {
     let dataTypesArray = ["Xcode Cloud - Prepare", "Xcode Cloud - Githup", "Xcode Cloud - Settings", "Xcode Cloud - First Build"]
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+            Image("xcode-cloud")
+                .imageScale(.small)
                 .foregroundColor(.accentColor)
             Text("Hello, Cloud World!")
             List {
