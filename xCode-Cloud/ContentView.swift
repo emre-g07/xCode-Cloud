@@ -13,8 +13,8 @@ struct ContentView: View {
         VStack {
             Image("xcode-cloud")
                 .imageScale(.small)
-                .foregroundColor(.accentColor)
-            Text("Hello, Cloud World!")
+                .foregroundColor(.blue)
+            Text("Welcome, Cloud World!")
             List {
                 ForEach(0..<dataTypesArray.count) { index in
                   Text(dataTypesArray[index])
