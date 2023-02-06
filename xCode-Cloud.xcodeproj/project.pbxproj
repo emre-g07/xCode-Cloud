@@ -14,6 +14,7 @@
 		1989B527298D25DB0027C6EC /* xCode_CloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1989B526298D25DB0027C6EC /* xCode_CloudTests.swift */; };
 		1989B531298D25DB0027C6EC /* xCode_CloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1989B530298D25DB0027C6EC /* xCode_CloudUITests.swift */; };
 		1989B533298D25DB0027C6EC /* xCode_CloudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1989B532298D25DB0027C6EC /* xCode_CloudUITestsLaunchTests.swift */; };
+		1989B541299199A70027C6EC /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1989B540299199A70027C6EC /* ContentDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1989B52C298D25DB0027C6EC /* xCode-CloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xCode-CloudUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1989B530298D25DB0027C6EC /* xCode_CloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xCode_CloudUITests.swift; sourceTree = "<group>"; };
 		1989B532298D25DB0027C6EC /* xCode_CloudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xCode_CloudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1989B540299199A70027C6EC /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				1989B517298D25DA0027C6EC /* ContentView.swift */,
 				1989B519298D25DB0027C6EC /* Assets.xcassets */,
 				1989B51B298D25DB0027C6EC /* Preview Content */,
+				1989B540299199A70027C6EC /* ContentDetailView.swift */,
 			);
 			path = "xCode-Cloud";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1989B518298D25DA0027C6EC /* ContentView.swift in Sources */,
+				1989B541299199A70027C6EC /* ContentDetailView.swift in Sources */,
 				1989B516298D25DA0027C6EC /* xCode_CloudApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

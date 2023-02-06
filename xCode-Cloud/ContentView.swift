@@ -15,11 +15,13 @@ struct ContentView: View {
                 .imageScale(.small)
                 .foregroundColor(.blue)
             Text("Welcome, Cloud World!")
-            List {
-                ForEach(0..<dataTypesArray.count) { index in
-                  Text(dataTypesArray[index])
-                }
-              }
+            NavigationStack {
+                List {
+                    ForEach(0..<dataTypesArray.count) { index in
+                      Text(dataTypesArray[index])
+                    }
+                  }
+            }.navigationDestination(for: String.self, destination: ContentDetailView.init).navigationTitle("Select a player")
         }
         .padding()
     }
