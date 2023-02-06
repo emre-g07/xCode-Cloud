@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentDetailView: View {
     let name: String
     var body: some View {
-        Text("Selected player: \(name)")
+        Text("Selected item: \(name)")
             .font(.largeTitle)
     }
 }
