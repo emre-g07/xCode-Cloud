@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    let dataTypesArray = ["Xcode Cloud - Prepare", "Xcode Cloud - Githup", "Xcode Cloud - Settings", "Xcode Cloud - First Build"]
+    let dataTypesArray = ["Xcode Cloud - Prepare",
+                          "Xcode Cloud - Githup",
+                          "Xcode Cloud - Settings",
+                          "Xcode Cloud - First Build"]
     var body: some View {
         VStack {
             Image("xcode-cloud")

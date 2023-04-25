@@ -15,6 +15,7 @@
 		1989B531298D25DB0027C6EC /* xCode_CloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1989B530298D25DB0027C6EC /* xCode_CloudUITests.swift */; };
 		1989B533298D25DB0027C6EC /* xCode_CloudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1989B532298D25DB0027C6EC /* xCode_CloudUITestsLaunchTests.swift */; };
 		1989B541299199A70027C6EC /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1989B540299199A70027C6EC /* ContentDetailView.swift */; };
+		5FA5FF2029F89084005943A4 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 5FA5FF1F29F89084005943A4 /* Jenkinsfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,9 @@
 		1989B530298D25DB0027C6EC /* xCode_CloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xCode_CloudUITests.swift; sourceTree = "<group>"; };
 		1989B532298D25DB0027C6EC /* xCode_CloudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xCode_CloudUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1989B540299199A70027C6EC /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		5FA5FF1F29F89084005943A4 /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
+		5FA5FF2229F8932C005943A4 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
+		5FA5FF2329F89355005943A4 /* ci_pre_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_pre_xcodebuild.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 		1989B509298D25DA0027C6EC = {
 			isa = PBXGroup;
 			children = (
+				5FA5FF2129F892A1005943A4 /* ci_scripts */,
+				5FA5FF1F29F89084005943A4 /* Jenkinsfile */,
 				1989B514298D25DA0027C6EC /* xCode-Cloud */,
 				1989B525298D25DB0027C6EC /* xCode-CloudTests */,
 				1989B52F298D25DB0027C6EC /* xCode-CloudUITests */,
@@ -128,6 +134,15 @@
 				1989B532298D25DB0027C6EC /* xCode_CloudUITestsLaunchTests.swift */,
 			);
 			path = "xCode-CloudUITests";
+			sourceTree = "<group>";
+		};
+		5FA5FF2129F892A1005943A4 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				5FA5FF2229F8932C005943A4 /* ci_post_clone.sh */,
+				5FA5FF2329F89355005943A4 /* ci_pre_xcodebuild.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +254,7 @@
 			files = (
 				1989B51D298D25DB0027C6EC /* Preview Assets.xcassets in Resources */,
 				1989B51A298D25DB0027C6EC /* Assets.xcassets in Resources */,
+				5FA5FF2029F89084005943A4 /* Jenkinsfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
